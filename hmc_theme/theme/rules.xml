@@ -7,4 +7,6 @@
 
     <copy css:theme="#text" css:content="#content" />
 
+    <replace css:theme-children="#NavBar" css:content-children="#portal-globalnav" />
+
 </rules>
