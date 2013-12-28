@@ -1,0 +1,200 @@
+body  {
+  background-color:#07121F;
+  color: #FFFFFF;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  font-size: 16px;
+}
+
+/*
+==================================================================================================================================================
+HEADER
+==================================================================================================================================================*/
+#header {
+  background: -moz-linear-gradient(top,  rgba(255,192,0,0.69) 0%, rgba(255,138,21,0.69) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,192,0,0.69)), color-stop(100%,rgba(255,138,21,0.69))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0ffc000', endColorstr='#b0ff8a15',GradientType=0 ); /* IE6-9 */
+  height: 100px;
+  position: relative;
+  top: 10px;
+}
+
+img{
+  position: relative;
+  top: -55px;
+  padding: 5px;
+}
+
+.pull-right.img-rounded {
+  position: relative
+  top: -40px;
+  padding: 5px;
+  left: 5px;
+  border:3px;
+}
+
+.pull-right.titleheader {
+  font-size: 22px;
+  line-height:1.2; 
+  font-weight: bold;
+  }
+
+/*
+==================================================================================================================================================
+Top Navigation Bar
+==================================================================================================================================================*/  
+  
+button{
+  background: -moz-linear-gradient(top,  rgba(255,192,0,0.69) 0%, rgba(255,138,21,0.69) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,192,0,0.69)), color-stop(100%,rgba(255,138,21,0.69))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0ffc000', endColorstr='#b0ff8a15',GradientType=0 ); /* IE6-9 */
+  color: #FFFFFF; 
+ }
+  
+.navbar {
+   background-color: #0F243E;
+   font-size: 18px;
+   top: 10px; 
+   width: 950px;
+   border-radius: 3px;
+}
+
+.dropdown-menu {
+  background-color: #D8D8D8;
+  color: #404040;
+}
+
+/*
+==================================================================================================================================================
+Top Search Bar
+==================================================================================================================================================*/  
+
+.searchbar {
+   background-color: #0F243E;
+   position: relative;
+   font-size: 18px;
+   top: -60px;
+   float: right;
+   border-radius: 3px;
+ }
+ 
+ .search.pull-right {
+  position: relative;
+  top: 10px;
+  right: 5px;
+}
+.login {
+  position: relative;
+  }
+
+/*================================================================================================================================================
+Administration Bar (when logged in)
+==================================================================================================================================================*/
+
+.userbarleft {
+   background-color: #505050;
+   color: #FFFFFF;
+   font-size: 14px;
+   position: relative;
+   float:left;
+   top: -50px;
+   height: 25px;
+   border-radius: 3px;
+   width: 650px;
+   }
+   
+.userbarright {
+  background-color: #505050;
+  color: #FFFFFF;
+  font-size: 14px;
+  position: relative;
+  float:right;
+  top:-75px;
+  height: 25px;
+  border-radius: 3px;
+  width: 650px;
+   }
+ 
+ #UserBarLeft {
+   float:left;
+   }
+  
+ #UserBarRight {
+  float: right;
+  }
+   
+.nav-collapse.collapse.user {
+  position: relative;
+  top: -13px;
+  color: #FFFFFF;
+  } 
+  
+/*
+==================================================================================================================================================
+Content/Portlets/Footer
+==================================================================================================================================================*/  
+
+.col-lg-9 {
+   font-size: 16px;
+   float: left;
+   width: 840px;
+   top: -10px;
+}
+
+.col-lg-3 {
+   background-color: rgba(23, 54, 93, 0.7);
+   font-size: 18px;
+   float: right; 
+   top: -25px;
+   width: 350px;
+}
+
+/*Depending on what we put in the footer, I will
+adjust color and size until it looks good.*/
+#footer {
+  background-color: #0F243E;
+  height: 25px;
+  top: -20px;
+  font-size: 12px;
+}
+
+/*
+==================================================================================================================================================
+XXX Fixes contributed by Alex Clark, integrate with above sections upon completion.
+==================================================================================================================================================*/  
+
+/* Move body down */
+.documentFirstHeading {
+    margin-top: 2em !important;
+}
+#content-core {
+    margin-top: 4em; 
+}
+
+/* Make body text visible */
+h1, h2, h3, h4, h5 {
+    color: white;
+}
+
+/* Make nav work */
+.selected {
+    background-color: #D5D5D5;
+    color: #555555;
+}
+
+/* Allow room for porlet */
+#text {
+    width: 70%;
+}
+
+/* Move portlet down */
+html.js body.template-document_view div.container div.container div#content.row div.col-lg-3 {
+    margin-top: 5em;
+}
