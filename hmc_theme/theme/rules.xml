@@ -6,7 +6,10 @@
     <theme href="index.html" />
 
     <copy css:theme="#text" css:content="#content" />
+    <append css:theme="#text" css:content="#viewlet-below-content" /> <!-- Manage portlets -->
 
     <replace css:theme-children="#NavBar" css:content-children="#portal-globalnav" />
+
+    <copy css:theme="#portlets" css:content="#portal-column-two" />
 
 </rules>
