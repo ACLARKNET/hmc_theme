@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org" 
+    xmlns:plone="http://namespaces.plone.org/plone"
+    >
+
+    <plone:static
+        directory="theme"
+        type="theme"
+        name="HMC Theme"
+        />
+
+</configure>
