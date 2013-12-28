@@ -12,4 +12,6 @@
 
     <copy css:theme="#portlets" css:content="#portal-column-two" />
 
+    <drop css:theme="#UserBarRight" />
+
 </rules>
