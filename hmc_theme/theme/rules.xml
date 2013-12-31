@@ -5,6 +5,8 @@
 
     <theme href="index.html" />
 
+    <before css:theme="html head" css:content="html head" />
+
     <copy css:theme="#text" css:content="#portal-column-content" />
 
     <replace css:theme-children="#NavBar" css:content-children="#portal-globalnav" />
