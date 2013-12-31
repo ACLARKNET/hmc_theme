@@ -15,4 +15,7 @@
 
     <drop css:theme="#UserBarRight" />
 
+    <copy css:theme="#footer" css:content="#portal-footer" />
+    <append css:theme="#footer" css:content="#portal-colophon" />
+
 </rules>
