@@ -198,3 +198,9 @@ h1, h2, h3, h4, h5 {
 html.js body.template-document_view div.container div.container div#content.row div.col-lg-3 {
     margin-top: 5em;
 }
+
+#content li, dl.portlet li, div.portletStaticText li {
+    display: inline;
+    line-height: 1.5em;
+    margin-bottom: 0.25em;
+}
