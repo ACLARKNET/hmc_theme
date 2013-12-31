@@ -5,7 +5,7 @@
 
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
 
-    <before css:theme="html head" css:content="html head" />
+    <prepend css:theme="html head" css:content="html head" />
 
     <copy css:theme="#text" css:content="#portal-column-content" />
 
